@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+}
+
+.Body-Login,
+.Body-Registration,
+.Body-Createpost,
+.Body-topFive,
+.Body-Deletepost {
+    overflow: hidden;
+}
+
+.Background__Login {
+    width: 100%;
+    background: url("../img/login.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.Login__Main {
+    background: #000000cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+}
+
+.Login__Input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.Login__Heading,
+.Registration__Heading {
+    color: white;
+    margin-top: 300px;
+}
+
+.createHeading {
+    color: white;
+    margin-top: 200px;
+}
+
+.Background__Registration {
+    width: 100%;
+    background: url("../img/registration.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.Registration__Main {
+    background: #000000cc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1100px;
+    overflow: hidden;
+}
+
+.Registration__Input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.button {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background: #AAAAAA;
+    border: none;
+}
+
+.link,
+.Registration__Link,
+.Login__Link {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.form {
+    width: 30%;
+}
+
+.Background__Allposts {
+    width: 100%;
+    background: url("../img/game.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-height: 1100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Allposts__Container {
+    width: 50%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    background: #000000b3;
+    margin: 50px 0;
+}
+
+.Container__Right {
+    border-left: 2px solid white;
+    width: 70%;
+}
+
+.Allposts__Title {
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.Allposts__Content {
+    color: white;
+    margin: 20px 40px 40px 40px;
+}
+
+.Container__Left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Allposts__Info {
+    color: white;
+    margin: 0;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.Buttons__Upper {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.none {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.noneWhite {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+
+.mainCreate {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+}
+
+.deletePostDiv {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1100px;
+}
+
+.Delete__Button {
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    background: #AAAAAA;
+    border: none;
+}
+
+.Delete__Form {
+    width: 25%;
+}
+
+.Delete-Post__Title {
+    color: white;
+    margin-top: 250px;
+}
+
+.formButtons {
+    margin: 10px;
+}
+
+.buttons {
+    display: flex;
+    margin: 20px;
+}
+
+.createButtons {
+    background: black;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.inputTitle {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+.inputContent {
+    width: 100%;
+    height: 200px;
+}
+
+.mainRead {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Error {
+    color: red;
+    text-align: center;
+}
+
+.white {
+    color: white;
+}
+
+.whiteHeading {
+    color: white;
+    text-decoration: underline;
+    margin-right: 100px;
+}
+
+.topFive {
+    background: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    height: 1100px;
+}
+
+.sort {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+
+.sortBy {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.allPosts__Main {
+    background: #00000070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 1100px;
+    width: 100%;
+}
+
+.noFavorite,
+.noPosts {
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.favorite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noPosts a {
+    color: #ff0000;
+}
